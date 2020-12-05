@@ -1,15 +1,11 @@
-package com.zzt.entity;
+package com.zzt.entity.request;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
-import com.zzt.config.VehicleType;
 
-public class StartTravelRequest {
+public class EndTravelRequest {
     @JSONField(ordinal = 1)
     private Long userId;
-
-    @JSONField(ordinal = 2)
-    private VehicleType vehicleType;
 
     public Long getUserId() {
         return userId;
@@ -17,14 +13,6 @@ public class StartTravelRequest {
 
     public void setUserId(Long userId) {
         this.userId = userId;
-    }
-
-    public VehicleType getVehicleType() {
-        return vehicleType;
-    }
-
-    public void setVehicleType(VehicleType vehicleType) {
-        this.vehicleType = vehicleType;
     }
 
     @Override
