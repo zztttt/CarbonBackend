@@ -1,12 +1,10 @@
 package com.zzt.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.zzt.Entity.BeginEchangeRequest;
-import com.zzt.Entity.EndTravelRequest;
-import com.zzt.Entity.StartTravelRequest;
-import com.zzt.config.VehicleType;
+import com.zzt.entity.BeginEchangeRequest;
+import com.zzt.entity.EndTravelRequest;
+import com.zzt.entity.StartTravelRequest;
 import com.zzt.service.UserService;
-import com.zzt.service.impl.UserServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

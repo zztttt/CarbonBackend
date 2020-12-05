@@ -1,9 +1,7 @@
-package com.zzt.Entity;
+package com.zzt.entity;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.annotation.JSONField;
-import com.alibaba.fastjson.parser.Feature;
 
 public class BeginEchangeRequest {
     @JSONField(ordinal = 1)
