@@ -1,4 +1,4 @@
-package com.zzt.entity.request;
+package com.zzt.domain.request;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
